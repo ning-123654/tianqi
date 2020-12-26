@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg2"
+
+    android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:background="@drawable/shape_dialog"
+
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/tv_00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="今天"
+            android:gravity="center"
+            android:textColor="@color/red"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/wendu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <ImageView
+                android:id="@+id/ioc"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tv_di"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="最di"
+
+                android:textColor="@color/color_43496A"
+                android:textSize="18sp" />
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:id="@+id/tv_gao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="最gao"
+
+                android:textColor="@color/color_43496A"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tv_yi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="穿衣建议"
+
+                android:textColor="@color/color_43496A"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_city"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="未来天气"
+        android:textColor="#0073D9"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="40dp"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape_dialog"
+
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/tv_10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="今天"
+                    android:textColor="@color/red"
+                    android:textSize="20sp" android:gravity="center"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="地点"
+
+                    android:textColor="@color/color_43496A"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/tv_12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="地点"
+
+                    android:textColor="@color/color_43496A"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/tv_13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="地点"
+
+                    android:textColor="@color/colorAccent"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="30dp"
+                android:layout_weight="1"
+
+                android:background="@drawable/shape_dialog"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="今天"
+                    android:textColor="@color/red" android:gravity="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="地点"
+
+                    android:textColor="@color/color_43496A"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/tv_22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="地点"
+
+                    android:textColor="@color/color_43496A"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/tv_23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="地点"
+
+                    android:textColor="@color/colorAccent"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="30dp"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:background="@drawable/shape_dialog"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_30"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="今天"
+                    android:textColor="@color/red"
+                    android:textSize="20sp" android:gravity="center"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_31"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="地点"
+
+                    android:textColor="@color/color_43496A"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/tv_32"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="地点"
+
+                    android:textColor="@color/color_43496A"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/tv_33"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="地点"
+
+                    android:textColor="@color/colorAccent"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="30dp"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:background="@drawable/shape_dialog"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_40"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="今天"
+                    android:textColor="@color/red"
+                    android:textSize="20sp" android:gravity="center"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_41"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="地点"
+
+                    android:textColor="@color/color_43496A"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/tv_42"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="地点"
+
+                    android:textColor="@color/color_43496A"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/tv_43"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="地点"
+
+                    android:textColor="@color/colorAccent"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
